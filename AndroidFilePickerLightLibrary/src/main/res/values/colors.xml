@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    This program (the AndroidFilePickerLight library) is free software written by
+    Maxie Dion Schmidt: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    The complete license provided with source distributions of this library is
+    available at the following link:
+    https://github.com/maxieds/AndroidFilePickerLight
+-->
+
+<resources>
+
+    <color name="colorMainToolbarBackground">#0D212D</color>
+    <color name="colorMainToolbarBackground2">#1C323E</color>
+    <color name="colorMainToolbarBackground3">#354954</color>
+    <color name="colorMainToolbarBackground4">#4f5F69</color>
+    <color name="colorMainToolbarForegroundText">#DCE4E8</color>
+    <color name="colorFileListDivider_border">#90A9B8</color>
+    <color name="colorFileListDivider_gradientStart">#BCCBD4</color>
+    <color name="colorFileListDivider_gradientEnd">#E9EEF1</color>
+    <color name="colorToolbarDivider">#215270</color>
+    <color name="colorToolbarNav">#A6BAC6</color>
+    <color name="__colorPrimary">#72B1D6</color>
+    <color name="__colorPrimaryDark">#215270</color>
+    <color name="__colorPrimaryVeryDark">#061B29</color>
+    <color name="__colorAccent">#A7CEE6</color>
+    <color name="__colorAccentMedium">#7A97A9</color>
+    <color name="__colorAccentLight">#E9EEF1</color>
+    <color name="__colorTransparent">@android:color/transparent</color>
+
+</resources>

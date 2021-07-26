@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    This program (the AndroidFilePickerLight library) is free software written by
+    Maxie Dion Schmidt: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    The complete license provided with source distributions of this library is
+    available at the following link:
+    https://github.com/maxieds/AndroidFilePickerLight
+-->
+
+<resources>
+
+    <style name="LibraryDefaultTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="filePickerTitleText">@string/filePickerTitleText</item>
+        <item name="filePickerNavBarText">@string/filePickerNavBarText</item>
+        <item name="filePickerDoneButtonText">@string/filePickerDoneActionButtonText</item>
+        <item name="filePickerCancelButtonText">@string/filePickerCancelActionButtonText</item>
+        <item name="namedFolderSDCardIcon">@drawable/named_folder_sdcard_icon32</item>
+        <item name="defaultFileIcon">@drawable/text_file_icon32</item>
+        <item name="defaultHiddenFileIcon">@drawable/hidden_file_icon32</item>
+        <item name="defaultFolderIcon">@drawable/folder_icon32</item>
+        <item name="namedFolderPicsIcon">@drawable/named_folder_images_icon32</item>
+        <item name="namedFolderCameraIcon">@drawable/named_folder_camera_icon32</item>
+        <item name="namedFolderScreenshotsIcon">@drawable/named_folder_screenshots_icon32</item>
+        <item name="namedFolderDownloadsIcon">@drawable/named_folder_downloads_icon32</item>
+        <item name="namedFolderUserHomeIcon">@drawable/named_folder_user_home_icon32</item>
+        <item name="namedFolderMediaIcon">@drawable/named_folder_media_icon32</item>
+        <item name="namedFolderRecentDocsIcon">@drawable/named_folder_recents_icon32</item>
+        <item name="mainToolbarBackgroundColor">@color/colorMainToolbarBackground</item>
+        <item name="mainToolbarBackgroundColor2">@color/colorMainToolbarBackground2</item>
+        <item name="mainToolbarBackgroundColor3">@color/colorMainToolbarBackground3</item>
+        <item name="mainToolbarBackgroundColor4">@color/colorMainToolbarBackground4</item>
+        <item name="mainToolbarForegroundTextColor">@color/colorMainToolbarForegroundText</item>
+        <item name="colorToolbarDivider">@color/colorToolbarDivider</item>
+        <item name="colorToolbarNav">@color/colorToolbarNav</item>
+        <item name="__colorPrimary">@color/__colorPrimary</item>
+        <item name="__colorPrimaryDark">@color/__colorPrimaryDark</item>
+        <item name="__colorPrimaryVeryDark">@color/__colorPrimaryVeryDark</item>
+        <item name="__colorAccentLight">@color/__colorAccentLight</item>
+        <item name="__colorAccent">@color/__colorAccent</item>
+        <item name="__colorAccentMedium">@color/__colorAccentMedium</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SelectionCheckBoxStyle" parent="LibraryDefaultTheme">
+        <item name="colorControlNormal">?__colorAccentMedium</item>
+        <item name="colorControlActivated">?__colorAccentMedium</item>
+        <item name="buttonTint">?colorPrimary</item>
+    </style>
+
+    <style name="LibraryToolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal|bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingLeft">10sp</item>
+    </style>
+
+    <style name="LibraryToolbar.SubtitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal|bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:gravity">center_vertical|center</item>
+        <item name="android:paddingLeft">10sp</item>
+    </style>
+
+    <style name="FileItemSelectionBoxTheme" parent="LibraryDefaultTheme">
+        <item name="colorControlNormal">?__colorAccentMedium</item>
+        <item name="colorControlActivated">?__colorAccentMedium</item>
+        <item name="buttonTint">?__colorAccentMedium</item>
+    </style>
+
+</resources>

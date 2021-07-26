@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    This program (the AndroidFilePickerLight library) is free software written by
+    Maxie Dion Schmidt: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    The complete license provided with source distributions of this library is
+    available at the following link:
+    https://github.com/maxieds/AndroidFilePickerLight
+-->
+
+<resources>
+
+    <string name="libraryName">File Chooser</string>
+    <string name="libraryDesc">A lightweight modern file selector</string>
+
+    <string name="errorMsgUnknown">An unknown error occurred</string>
+    <string name="errorMsgNotSelectable">Cannot select the file path (too many or no multiple)</string>
+    <string name="errorMsgPathJailExceeded">Cannot jump out of the preset top level path sandbox!</string>
+
+    <string name="requiredPermsRationale">These permissions are requirements for the file chooser library to access files on the Android device.</string>
+    <string name="optionalPermsRationale">These permissions are technically optional, but make things more convenient.</string>
+
+    <string name="fileProviderRootSummayDesc">Root of storage for our basic file provider implementation</string>
+
+    <string name="filePickerTitleText">Select files by path</string>
+    <string name="filePickerNavBarText">Navigate: </string>
+    <string name="filePickerDoneActionButtonText">Done</string>
+    <string name="filePickerCancelActionButtonText">Cancel</string>
+
+    <string name="grantPermsDialogOkBtnText">Grant Permissions</string>
+    <string name="grantPermsDialogCancelBtnText">Deny Permissions</string>
+    <string name="grantPermsDialogRationaleText">
+        We require several file storage permissions to list and access the local device file system,
+        e.g., to choose a file or directory path to load. You will not be able to select files with
+        this application unless these permissions are granted.
+    </string>
+
+</resources>
